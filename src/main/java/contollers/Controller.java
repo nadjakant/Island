@@ -1,11 +1,10 @@
 package contollers;
 
-import model.animal.carnivore.Bear;
+import model.animal.InhabitantConfig;
 
 public class Controller {
     public static void main(String[] args) {
+        InhabitantConfig.animalFightProbabilityMap();
 
-       Bear bear = new Bear();
-        System.out.println(bear);
     }
 }
