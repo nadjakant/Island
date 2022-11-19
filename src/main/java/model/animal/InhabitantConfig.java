@@ -41,6 +41,3 @@ public class InhabitantConfig {
         }
         return victimsMap;
     }
-
-
-}
