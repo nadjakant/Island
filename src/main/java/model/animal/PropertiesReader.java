@@ -26,4 +26,4 @@ public class PropertiesReader {
         }
         return properties;
     }
-}
+
