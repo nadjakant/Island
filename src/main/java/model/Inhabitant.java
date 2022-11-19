@@ -1,11 +1,6 @@
 package model;
 
-import lombok.Getter;
-import lombok.Setter;
 
-
-@Setter
-@Getter
 public abstract class Inhabitant {
     protected final String name;
     protected final String symbol;

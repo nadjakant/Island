@@ -1,6 +1,6 @@
 package model.animal;
 
-import lombok.Getter;
+
 import model.Inhabitant;
 import model.animal.carnivore.*;
 import model.animal.herbivore.*;
@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
-@Getter
+
 public class InhabitantConfig {
     private static List<Class<? extends Inhabitant>> inhabitantClassNames;
     private static Map<Class<? extends Inhabitant>, Map<Class<? extends Inhabitant>, Integer>> animalFightProbability;
@@ -41,4 +41,3 @@ public class InhabitantConfig {
         }
         return victimsMap;
     }
-}
